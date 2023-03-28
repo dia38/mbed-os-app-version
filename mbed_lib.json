@@ -1,0 +1,25 @@
+{
+    "name": "App_Version",
+    "config":{
+        "MAJOR" :{
+            "description" : "Major Version Number",
+            "type" : "integer"
+        },
+        "MINOR": {
+            "description" : "Minor Version Number",
+            "type" : "integer"
+        },
+        "PATCH": {
+            "description" : "patch Version Number",
+            "type" : "integer"
+        },
+        "PRE_RELEASE": {
+            "description": "Pre-release Version String",
+            "type": "string"
+        },
+        "BUILD": {
+            "description": "Build Version Number",
+            "type": "integer"
+        }
+    }
+}
